@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
- 	#0BAE4B
+ 	#97C142
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -20,7 +20,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #0BAE4B;
+  color: #97C142;
   outline: none;
 }
 h1,
@@ -56,7 +56,7 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #0BAE4B;
+  background-color: #97C142;
   color: white;
 }
 hr.star-primary {
@@ -72,11 +72,12 @@ hr.star-primary:after {
 
 .img-responsive {
   height: 300px;
+  margin: 20px auto;
 }
 header {
   text-align: center;
   background: white !important;
-  color: #0BAE4B !important;
+  color: #97C142 !important;
 }
 header .container {
   padding-top: 40px;
@@ -98,8 +99,11 @@ header .intro-text .skills {
   font-weight: 300;
 }
 @media (min-width: 768px) {
+  .container{
+    width: 100%;
+  }
   header .container {
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 100px;
   }
   header .intro-text .name {
@@ -135,7 +139,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #0BAE4B;
+  color: #97C142;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -144,13 +148,13 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #0BAE4B;
+  background: #97C142;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #0BAE4B;
+  background: #97C142;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -160,9 +164,9 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #0BAE4B;
+  background-color: #97C142;
   color: white;
-  border-color: #0BAE4B;
+  border-color: #97C142;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -192,7 +196,7 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #0BAE4B;
+  background: #97C142;
   color: white;
 }
 
@@ -208,7 +212,7 @@ section.success {
 
 #donate {
   color: white;
-  background: #0BAE4B;
+  background: #97C142;
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;
@@ -350,7 +354,7 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #0BAE4B;
+  color: #97C142;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -385,7 +389,7 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #0BAE4B;
+  color: #97C142;
   background: white;
   border: solid 2px white;
 }
@@ -433,8 +437,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: white;
-  background-color: #0BAE4B;
-  border-color: #0BAE4B;
+  background-color: #97C142;
+  border-color: #97C142;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -466,11 +470,11 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #0BAE4B;
-  border-color: #0BAE4B;
+  background-color: #97C142;
+  border-color: #97C142;
 }
 .btn-success .badge {
-  color: #0BAE4B;
+  color: #97C142;
   background-color: white;
 }
 .btn-social {
