@@ -69,7 +69,21 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto;
 }
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
 
+.video-container iframe, .video-container object, .video-container embed {
+	position:relative;
+	width:80%;
+	height:500px;
+  align-content: center;
+
+}
 
 
 .embed-responsive-16by9{
@@ -112,7 +126,7 @@ header .intro-text .skills {
   }
   header .container {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
   }
   header .intro-text .name {
     font-size: 4.75em;
