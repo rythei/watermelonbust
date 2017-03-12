@@ -14,14 +14,14 @@ df = pd.read_csv('orders_in.csv')
 chapters = ['ΚΔ', 'ΑΦ', 'ΔΓ', 'ΔΖ', 'ΑΔΠ', 'ΑΧΩ', 'ΚΑΘ', 'ΚΚΓ', 'ΠΒΦ', 'ΣK', 'ΧΩ']
 
 
-c = ['Kappa Delta','Αlpha Phi', 'Delta Gamma', 'Delta Zeta', 'Αlpha Delta Pi','Alpha Chi Omega', 'Κappa Alpha Theta', 'Κappa Kappa Gamma', 'Pi Beta Phi', 'Sigma Kappa', 'Chi Omega']
+c = ['Kappa Delta','Alpha Phi', 'Delta Gamma', 'Delta Zeta', 'Alpha Delta Pi','Alpha Chi Omega', 'Kappa Alpha Theta', 'Kappa Kappa Gamma', 'Pi Beta Phi', 'Sigma Kappa', 'Chi Omega']
 s = [0]*len(c)
 
 sales = pd.DataFrame([c,s])
 sales = sales.T
 sales.columns = ['Chapter','Sales']
 
-translate = dict({'ΚΔ':'Kappa Delta', 'ΑΦ':'Αlpha Phi', 'ΔΓ': 'Delta Gamma', 'ΔΖ':'Delta Zeta', 'ΑΔΠ': 'Αlpha Delta Pi', 'ΑΧΩ':'Alpha Chi Omega', 'ΚΑΘ': 'Κappa Alpha Theta', 'ΚΚΓ':'Κappa Kappa Gamma', 'ΠΒΦ':'Pi Beta Phi', 'ΣK':'Sigma Kappa', 'ΧΩ': 'Chi Omega'})
+translate = dict({'ΚΔ':'Kappa Delta', 'ΑΦ':'Alpha Phi', 'ΔΓ': 'Delta Gamma', 'ΔΖ':'Delta Zeta', 'ΑΔΠ': 'Alpha Delta Pi', 'ΑΧΩ':'Alpha Chi Omega', 'ΚΑΘ': 'Kappa Alpha Theta', 'ΚΚΓ':'Kappa Kappa Gamma', 'ΠΒΦ':'Pi Beta Phi', 'ΣK':'Sigma Kappa', 'ΧΩ': 'Chi Omega'})
 
 for chapter in chapters:
     t = 0
