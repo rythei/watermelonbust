@@ -31,4 +31,4 @@ for chapter in chapters:
         t= t+1
 
 
-sales.to_csv('orders_out.csv')
+sales.to_csv('orders_out.csv',index=False)

@@ -18,7 +18,7 @@ body { font-family:arial, helvetica, sans-serif; font-weight:normal; font-size:1
 </div>
 <!-- end wrap -->
 <script type="text/javascript">
- $.get('orders_out.csv', function(data) {
+ $.get('https://raw.githubusercontent.com/rythei/watermelonbust/master/orders_out.csv', function(data) {
 	var build = '<table border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="100%">\n';
 	var rows = data.split("\n");
 	rows.forEach( function getvalues(thisRow) {
