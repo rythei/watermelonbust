@@ -16,6 +16,8 @@
 
     <!-- Theme CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
+
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -115,17 +117,38 @@
                   <p>Have any questions or want to get involved? Contact <a href="mailto:jkhanson3@gmail.com" style="color:white">Jack Hanson</a> or <a href="mailto:ryan.theisen@asu.edu" style="color:white">Ryan Theisen</a>.</p>
                 </div>
             </div>
+
         </div>
     </section>
-
+<!--border="1" cellpadding="2" cellspacing="0" style="border-collapse: collapse" width="100%"-->
     <section id="events">
         <div class="container" >
+          <h2 style="text-align:center">Current Apparel Sale Standings</h2>
+          <div class="row">
+            <div id="wrap">
+            </div>
+            <!-- end wrap -->
+            <script type="text/javascript">
+             $.get('https://raw.githubusercontent.com/rythei/watermelonbust/master/orders_out.csv', function(data) {
+              var build = '<table class="table table-striped">\n';
+              var rows = data.split("\n");
+              rows.forEach( function getvalues(thisRow) {
+              build += "<tr>\n";
+              var columns = thisRow.split(",");
+              for(var i=0;i<columns.length;i++){ build += "<td>" + columns[i] + "</td>\n"; }
+              build += "</tr>\n";
+              })
+              build += "</table>";
+              $('#wrap').append(build);
+             });</script>
+          </div>
           <div class="row">
               <div class="col-lg-12 text-center">
                   <h2>Events</h2>
                   <hr class="star-light">
               </div>
           </div>
+
             <div class="row">
               <div class="col-lg-8 col-lg-offset-2 text-center">
                   <h3>Dates to Remember</h3>
@@ -234,6 +257,9 @@ div.ecwid-minicart {
             <div class="row">
                   <div class="col-lg-8 col-lg-offset-2 text-center" style="color:white">
                       <p>Interested in sponsoring this year's Bust? Click <a href="./sponsorship_request.pdf" style="color: white">here</a> to find out about our sponsorship packages!</p>
+                
+
+
                   </div>
               </div>
             <!--<div class="row">
