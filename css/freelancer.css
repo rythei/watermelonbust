@@ -16,6 +16,7 @@ p.small {
   font-size: 16px;
 }
 .table {
+  border-width: medium;
   border-radius: 5px;
    margin: 10px auto;
    float: none;
