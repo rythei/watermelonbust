@@ -135,8 +135,9 @@
             <!-- end wrap -->
             <script type="text/javascript">
              $.get('https://raw.githubusercontent.com/rythei/watermelonbust/master/orders_out.csv', function(data) {
-              var build = '<table class="table table-striped">\n';
+              var build = '<table class="table table-striped" id=apparel>\n';
               var rows = data.split("\n");
+              rows.pop();
               rows.forEach( function getvalues(thisRow) {
               build += "<tr>\n";
               var columns = thisRow.split(",");
@@ -145,7 +146,9 @@
               })
               build += "</table>";
               $('#wrap').append(build);
-             });</script>
+             });
+
+             </script>
           </div>
 
           <div class="row">
