@@ -8,12 +8,13 @@ Created on Sun Mar 12 16:12:34 2017
 
 import pandas as pd
 
-PI_PHI_MENS = 13
-THETA_MENS = 6
+PI_PHI_MENS = 41
+THETA_MENS = 13
 ADPI_MENS = 1
-DZ_MENS = 6
-APHI_MENS = 2
-DG_MENS = 1
+DZ_MENS = 22
+APHI_MENS = 7
+DG_MENS = 3
+AXO_MENS = 8
 
 
 df = pd.read_csv('orders_in.csv')
