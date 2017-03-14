@@ -8,11 +8,12 @@ Created on Sun Mar 12 16:12:34 2017
 
 import pandas as pd
 
-PI_PHI_MENS = 7
-THETA_MENS = 2
+PI_PHI_MENS = 13
+THETA_MENS = 6
 ADPI_MENS = 1
-DZ_MENS = 1
-APHI_MENS = 1
+DZ_MENS = 6
+APHI_MENS = 2
+DG_MENS = 1
 
 
 df = pd.read_csv('orders_in.csv')
@@ -47,6 +48,7 @@ sales.loc[sales.Chapter == "Kappa Alpha Theta", "Tanks"] = sales.loc[sales.Chapt
 sales.loc[sales.Chapter == "Alpha Delta Pi", "Tanks"] = sales.loc[sales.Chapter == "Alpha Delta Pi", "Tanks"] + ADPI_MENS
 sales.loc[sales.Chapter == "Delta Zeta", "Tanks"] = sales.loc[sales.Chapter == "Delta Zeta", "Tanks"] + DZ_MENS
 sales.loc[sales.Chapter == "Alpha Phi", "Tanks"] = sales.loc[sales.Chapter == "Alpha Phi", "Tanks"] + APHI_MENS
+sales.loc[sales.Chapter == "Delta Gamma", "Tanks"] = sales.loc[sales.Chapter == "Delta Gamma", "Tanks"] + DG_MENS
 
 
 sales['Adjusted Total (1*Visors + 2*Tanks)'] = sales['Visors'] + 2*sales['Tanks']
