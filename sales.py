@@ -51,4 +51,4 @@ sales.loc[sales.Chapter == "Alpha Phi", "Tanks"] = sales.loc[sales.Chapter == "A
 
 sales['Adjusted Total (1*Visors + 2*Tanks)'] = sales['Visors'] + 2*sales['Tanks']
 
-#sales.to_csv('orders_out.csv',index=False)
+sales.to_csv('orders_out.csv',index=False)
