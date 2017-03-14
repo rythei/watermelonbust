@@ -8,13 +8,15 @@ Created on Sun Mar 12 16:12:34 2017
 
 import pandas as pd
 
-PI_PHI_MENS = 41
-THETA_MENS = 13
+PI_PHI_MENS = 65
+THETA_MENS = 15
 ADPI_MENS = 1
-DZ_MENS = 22
+DZ_MENS = 23
 APHI_MENS = 7
 DG_MENS = 3
 AXO_MENS = 8
+KKG_MENS = 2
+KD_MENS = 1
 
 
 df = pd.read_csv('orders_in.csv')
@@ -50,7 +52,9 @@ sales.loc[sales.Chapter == "Alpha Delta Pi", "Tanks"] = sales.loc[sales.Chapter 
 sales.loc[sales.Chapter == "Delta Zeta", "Tanks"] = sales.loc[sales.Chapter == "Delta Zeta", "Tanks"] + DZ_MENS
 sales.loc[sales.Chapter == "Alpha Phi", "Tanks"] = sales.loc[sales.Chapter == "Alpha Phi", "Tanks"] + APHI_MENS
 sales.loc[sales.Chapter == "Delta Gamma", "Tanks"] = sales.loc[sales.Chapter == "Delta Gamma", "Tanks"] + DG_MENS
-
+sales.loc[sales.Chapter == "Kappa Kappa Gamma", "Tanks"] = sales.loc[sales.Chapter == "Kappa Kappa Gamma", "Tanks"] + KKG_MENS
+sales.loc[sales.Chapter == "Kappa Delta", "Tanks"] = sales.loc[sales.Chapter == "Kappa Delta", "Tanks"] + KD_MENS
+sales.loc[sales.Chapter == "Alpha Chi Omega", "Tanks"] = sales.loc[sales.Chapter == "Alpha Chi Omega", "Tanks"] + AXO_MENS
 
 sales['Adjusted Total (1*Visors + 2*Tanks)'] = sales['Visors'] + 2*sales['Tanks']
 
