@@ -27,13 +27,16 @@ chapters = ['ΚΔ', 'ΑΦ', 'ΔΓ', 'ΔΖ', 'ΑΔΠ', 'ΑΧΩ', 'ΚΑΘ', 'ΚΚ�
 c = ['Kappa Delta','Alpha Phi', 'Delta Gamma', 'Delta Zeta', 'Alpha Delta Pi','Alpha Chi Omega', 'Kappa Alpha Theta', 'Kappa Kappa Gamma', 'Pi Beta Phi', 'Sigma Kappa', 'Chi Omega']
 v = [0]*len(c)
 t = [0]*len(c)
+d = [0]*len(c)
 tot = [0]*len(c)
 
-sales = pd.DataFrame([c,v,t,tot])
+sales = pd.DataFrame([c,v,t,d,tot])
 sales = sales.T
-sales.columns = ['Chapter','Visors', 'Tanks', 'Adjusted Total (1*Visors + 2*Tanks)']
+sales.columns = ['Chapter','Visors', 'Tanks', 'DBacks', 'Adjusted Total (1*Visors + 2*Tanks)']
 
 translate = dict({'ΚΔ':'Kappa Delta', 'ΑΦ':'Alpha Phi', 'ΔΓ': 'Delta Gamma', 'ΔΖ':'Delta Zeta', 'ΑΔΠ': 'Alpha Delta Pi', 'ΑΧΩ':'Alpha Chi Omega', 'ΚΑΘ': 'Kappa Alpha Theta', 'ΚΚΓ':'Kappa Kappa Gamma', 'ΠΒΦ':'Pi Beta Phi', 'ΣK':'Sigma Kappa', 'ΧΩ': 'Chi Omega'})
+donations = np.array([0,0,0,0,0])
+
 
 for chapter in chapters:
     t = 0
@@ -43,8 +46,18 @@ for chapter in chapters:
                 sales.loc[sales.Chapter == translate[chapter],'Visors'] = sales.loc[sales.Chapter == translate[chapter],'Visors'] + df.loc[t, 'quantity']
             elif 'Tank' in sale:
                 sales.loc[sales.Chapter == translate[chapter],'Tanks'] = sales.loc[sales.Chapter == translate[chapter],'Tanks'] + df.loc[t, 'quantity']
+            elif 'Diamondbacks' in sale:
+                sales.loc[sales.Chapter == translate[chapter], 'DBacks'] = sales.loc[sales.Chapter == translate[chapter], 'DBacks'] +df.loc[t, 'quantity']
+        #if 'Donate' in sale:
+         #       print(sale)
+                
         t= t+1
-        
+ 
+for i in range(len(df['name'])):
+    if 'Donate' in df.loc[i,'name']:
+       donations = np.vstack((donations,df.loc[i,:]))
+       
+donations = pd.DataFrame(donations)
 
 sales.loc[sales.Chapter == "Pi Beta Phi", "Tanks"] = sales.loc[sales.Chapter == "Pi Beta Phi", "Tanks"] + PI_PHI_MENS
 sales.loc[sales.Chapter == "Kappa Alpha Theta", "Tanks"] = sales.loc[sales.Chapter == "Kappa Alpha Theta", "Tanks"] + THETA_MENS
@@ -58,4 +71,4 @@ sales.loc[sales.Chapter == "Alpha Chi Omega", "Tanks"] = sales.loc[sales.Chapter
 
 sales['Adjusted Total (1*Visors + 2*Tanks)'] = sales['Visors'] + 2*sales['Tanks']
 
-sales.to_csv('orders_out.csv',index=False)
+#sales.to_csv('orders_out.csv',index=False)

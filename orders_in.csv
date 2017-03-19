@@ -1,4 +1,81 @@
 order_number,email,name,quantity,options
+890,tina.trujillo1@yahoo.com,ΚΑΘ Diamondbacks Ticket,1,
+889,laurenburcar26@q.com,ΚΑΘ Diamondbacks Ticket,1,
+888,kellybryant96@yahoo.com,ΠΒΦ Diamondbacks Ticket,2,
+886,benrbooth95@gmail.com,ΠΒΦ Diamondbacks Ticket,1,
+885,tomkczerwinski@gmail.com,ΠΒΦ Diamondbacks Ticket,1,
+884,meg9423@gmail.com,ΠΒΦ Diamondbacks Ticket,1,
+883,madelainebauer3@gmail.com,ΠΒΦ Diamondbacks Ticket,1,
+882,jane.bill@cox.net,Donate Now,1,"How much would you like to donate?:$50
+Chapter (if applicable):Kappa Alpha Theta"
+881,sofabrega@gmail.com,ΚΑΘ Diamondbacks Ticket,1,
+879,hlaller7@gmail.com,Donate Now,1,"How much would you like to donate?:$10
+Chapter (if applicable):Kappa Kappa Gamma"
+878,humphreyszach@gmail.com,ΠΒΦ Diamondbacks Ticket,1,
+876,julibrunner@yahoo.com,Donate Now,1,"How much would you like to donate?:$50
+Chapter (if applicable):Alpha Chi Omega"
+875,ahjudd@asu.edu,ΑΓΔ Diamondbacks Ticket,2,
+872,nossamang@gmail.com,ΚΑΘ Diamondbacks Ticket,2,
+871,trmgirl@cox.net,ΚΑΘ Diamondbacks Ticket,2,
+870,narterbu@asu.edu,Donate Now,1,"How much would you like to donate?:$50
+Chapter (if applicable):Kappa Alpha Theta"
+869,khicks3@asu.edu,Donate Now,1,"How much would you like to donate?:$5
+Chapter (if applicable):Kappa Kappa Gamma"
+868,barbtheisen@cox.net,Donate Now,1,"How much would you like to donate?:$500
+Chapter (if applicable):"
+867,vorejoey@aol.con,ΚΔ Diamondbacks Ticket,1,
+864,cphdavis@gmail.com,ΑΦ Visor,1,
+863,kjacobson@eberhardco.com,ΚΑΘ Visor,2,
+862,sierra129@live.com,ΚΚΓ Tank,1,Size:L
+861,etjones2014@yahoo.com,ΠΒΦ Visor,1,
+860,adinaadriano@gmail.com,ΚΚΓ Visor,1,
+859,anaspraetz@gmail.com,ΚΑΘ Tank,2,Size:S
+858,danceams@live.com,ΚΚΓ Tank,1,Size:S
+857,pfeifferdanielle@yahoo.com,Men's Tee,1,"Size:L
+Chapter:pi beta phi"
+855,madelainebauer3@gmail.com,Men's Tee,1,"Size:L
+Chapter:pi phi"
+853,brooke.goett@gmail.com,Men's Tank,4,"Size:XL
+Chapter:pi beta phi"
+853,brooke.goett@gmail.com,ΠΒΦ Tank,5,Size:M
+853,brooke.goett@gmail.com,ΠΒΦ Visor,2,
+853,brooke.goett@gmail.com,Men's Tee,4,"Size:XL
+Chapter:Pi Beta Phi"
+853,brooke.goett@gmail.com,Men's Tank,6,"Size:S
+Chapter:Pi Beta Phi"
+853,brooke.goett@gmail.com,Men's Tank,4,"Size:M
+Chapter:Pi beta phi"
+852,gingerljacobs@gmail.com,ΠΒΦ Visor,1,
+852,gingerljacobs@gmail.com,Men's Tee,1,"Size:L
+Chapter:pi beta phi"
+852,gingerljacobs@gmail.com,Men's Tank,1,"Size:S
+Chapter:pi beta phi"
+852,gingerljacobs@gmail.com,Men's Tank,1,"Size:XL
+Chapter:pi beta phi"
+851,xscoglio@gmail.com,ΚΚΓ Tank,1,Size:S
+850,yzaac.farnsworth@gmail.com,ΚΚΓ Tank,1,Size:S
+849,etjones2014@yahoo.com,ΠΒΦ Tank,1,Size:M
+848,mcasslin@asu.edu,ΑΦ Tank,1,Size:M
+848,mcasslin@asu.edu,Men's Tee,3,"Size:M
+Chapter:Alpha Phi"
+847,ahmeyer@asu.edu,Men's Tank,1,"Size:M
+Chapter:PI beta phi"
+846,quinn.h.moore@gmail.com,Men's Tank,1,"Size:L
+Chapter:"
+844,emmagrace46@gmail.com,ΠΒΦ Tank,1,Size:L
+843,madelainebauer3@gmail.com,Men's Tank,1,"Size:XL
+Chapter:pi phi"
+843,madelainebauer3@gmail.com,Men's Tee,1,"Size:M
+Chapter:pi phi"
+843,madelainebauer3@gmail.com,Men's Tank,1,"Size:L
+Chapter:pi phi"
+842,sierraluciano30@gmail.com,ΔΖ Tank,1,Size:M
+841,loucks.lauren@gmail.com,ΠΒΦ Tank,1,Size:M
+840,allicravens97@gmail.com,ΔΓ Tank,1,Size:M
+839,lizettenunezz@gmail.com,ΚΔ Tank,1,Size:S
+839,lizettenunezz@gmail.com,ΚΔ Visor,1,
+839,lizettenunezz@gmail.com,Men's Tank,2,"Size:S
+Chapter:Kappa Delta"
 838,baileybradburn@gmail.com,ΔΖ Tank,1,Size:L
 837,jayde.ellenby@yahoo.com,ΔΓ Tank,1,Size:M
 836,klwill31@asu.edu,ΚΚΓ Visor,1,
@@ -10,6 +87,7 @@ Chapter:Pi Beta Phi"
 833,aetay18@gmail.com,ΔΖ Visor,1,
 832,kate.trizna@gmail.com,Men's Tee,1,"Size:L
 Chapter:Delta Zeta"
+831,emilysitton@hotmail.com,ΠΒΦ Tank,1,Size:M
 830,mtankeh@asu.edu,ΠΒΦ Tank,1,Size:XL
 829,cmbeauva@asu.edu,ΔΓ Tank,1,Size:S
 828,macy.lobe@yahoo.com,ΑΦ Visor,1,
@@ -21,6 +99,9 @@ Chapter:Delta Zeta"
 823,nicolecostantino22@gmail.com,ΚΔ Tank,1,Size:L
 822,laurenwhite2014@yahoo.com,Men's Tank,1,"Size:L
 Chapter:Pi Beta Phi"
+821,brookecarney2@yahoo.com,ΠΒΦ Tank,1,Size:S
+821,brookecarney2@yahoo.com,Men's Tank,2,"Size:XL
+Chapter:pi beta phi"
 819,madison.ascher@gmail.com,ΑΦ Tank,1,Size:S
 818,mccalldonnelly@hotmail.com,ΠΒΦ Tank,1,Size:M
 816,brooke.katz7@gmail.com,ΑΦ Tank,1,Size:S
@@ -33,6 +114,9 @@ Chapter:Pi Beta Phi"
 807,ahmeyer@asu.edu,ΠΒΦ Tank,2,Size:M
 805,jodiegraceee@gmail.com,ΔΓ Tank,1,Size:M
 804,lvesala@hotmail.com,ΚΚΓ Tank,1,Size:L
+803,kellybryant96@yahoo.com,ΠΒΦ Visor,1,
+803,kellybryant96@yahoo.com,Men's Tank,1,"Size:L
+Chapter:Pi Beta Phi"
 802,erinnrunning@yahoo.com,Men's Tank,1,"Size:M
 Chapter:Delta Zeta"
 801,lzbthpsczz@gmail.com,ΔΓ Visor,2,
@@ -135,6 +219,13 @@ Chapter:Theta"
 734,erinnrunning@yahoo.com,ΔΖ Tank,1,Size:M
 733,cara.hagstrom@gmail.com,ΚΑΘ Tank,1,Size:S
 732,vanessarivera777@gmail.com,ΚΑΘ Tank,1,Size:S
+731,jhunsaker412@gmail.com,ΠΒΦ Tank,2,Size:S
+731,jhunsaker412@gmail.com,ΠΒΦ Visor,1,
+731,jhunsaker412@gmail.com,ΠΒΦ Tank,3,Size:M
+731,jhunsaker412@gmail.com,Men's Tank,1,"Size:XL
+Chapter:Pi Beta Phi"
+731,jhunsaker412@gmail.com,Men's Tee,1,"Size:M
+Chapter:Pi Beta Phi"
 730,clawson5@asu.edu,Men's Tee,1,"Size:M
 Chapter:Alpha Gamma Delta"
 729,lucassantucci3@gmail.com,ΚΚΓ Visor,1,
